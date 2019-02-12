@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeGym</title>
+</head>
+<body>
+<script>
+    let patt = /^[A-Za-z0-9_]{6,}$/;
+    let str = prompt("Mời bạn nhập vào tên account : ");
+    if (patt.test(str)) {
+        alert("Thỏa mãn!");
+    }else {
+        alert("Không thỏa mãn");
+    }
+</script>
+</body>
+</html>
